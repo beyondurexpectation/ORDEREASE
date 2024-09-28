@@ -45,6 +45,16 @@ def admin_section():
         st.write("Displaying admin data...")
         # Add your admin functionalities here
         st.write("Admin data goes here...")
+st.markdown("""
+    <style>
+    @media only screen and (max-width: 600px) {
+        .css-1d391kg {  /* Adjust the input box width */
+            max-width: 90%;
+        }
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 def user_section():
     st.header("Please Create new order ")
